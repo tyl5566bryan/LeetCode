@@ -5,11 +5,11 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
-        dict = {}
+        myDict = {}
         for i in range(0,len(nums)):
             num = nums[i]
             res = target - num
-            if res not in dict:
-                dict[num] = i
+            if res not in myDict:
+                myDict[num] = i
             else:
-                return [dict[res], i]
+                return [myDict[res], i]

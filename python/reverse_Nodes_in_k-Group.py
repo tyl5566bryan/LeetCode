@@ -7,10 +7,10 @@
 class Solution(object):
     def reverseKGroup(self, head, k):
         """
-            :type head: ListNode
-            :type k: int
-            :rtype: ListNode
-            """
+        :type head: ListNode
+        :type k: int
+        :rtype: ListNode
+        """
         if k < 2:
             return head
         

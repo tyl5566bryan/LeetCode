@@ -1,9 +1,9 @@
 class Solution(object):
     def longestValidParentheses(self, s):
         """
-            :type s: str
-            :rtype: int
-            """
+        :type s: str
+        :rtype: int
+        """
         len_s = len(s)
         stack, start_i, tail_i  = [], [-1], [-1]
         

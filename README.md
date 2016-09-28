@@ -1,3 +1,3 @@
 # LeetCode
 
-Hard level practices on leetcode
+Solutions for selected problems on [LeetCode](https://leetcode.com/problemset/algorithms/)

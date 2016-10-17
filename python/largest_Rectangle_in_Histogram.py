@@ -4,6 +4,7 @@ class Solution(object):
         :type heights: List[int]
         :rtype: int
         """
+        
         if not heights: return 0
         heights.append(0)
         stack, max_r = [], 0
